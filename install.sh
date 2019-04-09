@@ -7,9 +7,9 @@ info(){
 
 
 info "-> Deinstall phpmyadmin apache2 mysql-server" 
-apt purge phpmyadmin
-apt purge apache2
-apt purge mysql-server
+apt purge -y phpmyadmin
+apt purge -y apache2
+apt purge -y mysql-server
 
 
 info "-> Install phpmyadmin apache2 mysql-server"
